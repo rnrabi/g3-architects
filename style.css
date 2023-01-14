@@ -140,4 +140,77 @@ margin:10px 0;
     margin:10px 0;
 }
 
+/* Love & Enjoy */
+.love-enjoy{
+    display: flex;
+    gap:30px;
+    padding: 50px 230px;
+    position:relative;
+}
+.love-enjoy a button{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border:none;
+    padding: 10px;
+    margin:10px 0;
+}
+.love-enjoy a{
+    position:absolute;
+    left:742px;
+    bottom:0;
+}
+.love-enjoy a button .ten{
+font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+display: block;
+}
+.love h2{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-left: 20px;
+    border-left: 5px solid #FF900E;
+}
+.love p{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 10px;
+ 
+}
+.version{
+    padding-left: 25px;
+}
+.version h3{
+    
+font-family: 'Work Sans';
+font-weight: 600;
+font-size: 20px;
+color: #131313;
+}
+
+.enjoy img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
