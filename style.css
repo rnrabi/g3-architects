@@ -201,8 +201,42 @@ color: #131313;
     width:100%;
 }
 
+/* some face section */
 
+.fact{
+    padding: 50px 230px;
+}
+.fact .top{
+    width:400px;
+}
+.fact .top > h2{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+color: #131313;
+margin-bottom: 10px;
+}
 
+.fact .top > p{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+
+.fact-work{
+    display: flex;
+    justify-content: space-around;
+    margin:100px 0 180px 0;
+}
+.fact-work div{
+    border: 1px solid #FF900E;
+    padding:15px;
+    border-radius:5px;
+    text-align: center;
+}
+/* Our sponspors */
 
 
 
