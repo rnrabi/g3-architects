@@ -273,7 +273,22 @@ color: #727272;
 }
 
 /* footer section */
-
+.footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 960px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-bottom: 254px;
+}
+.footer p{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+   
+}
 
 
 
