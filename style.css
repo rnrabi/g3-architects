@@ -235,6 +235,11 @@ color: #727272;
     padding:15px;
     border-radius:5px;
     text-align: center;
+    transition: all ease-in 1s;
+}
+.fact-work div:hover{
+    transform:rotate(25deg) scale(1.5 , 1.5);
+    background-color: #727272;
 }
 /* Our sponspors */
 .sponspor{
@@ -272,6 +277,42 @@ color: #727272;
     width:100%;
 }
 
+/* my section */
+.sec-container > h2{
+    padding: 0px 230px;
+    margin-bottom: -30px;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #314c31;
+}
+.my-section{
+    display: flex;
+    gap:10px;
+    padding: 80px 230px;
+}
+.my-section div h2{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #6d9740;
+    line-height: 54px;
+}
+.my-section div p{
+    color: #a99595;
+    margin-bottom: 17px;
+}
+.my-section div a button{
+    background-color: #483620;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #99a599;
+}
+.my-section div a:hover button{
+    background-color: aqua;
+}
+
 /* footer section */
 .footer{
     background: #FFF4E7;
@@ -290,6 +331,28 @@ color: #727272;
    
 }
 
+
+/* Responsive layout */
+@media only screen and (max-width:576px){
+    .menu , .menu-bar , .header-banner-container , .banner{
+        display: flex;
+     
+        align-items: center;
+      
+        flex-direction: column;
+    }
+    .menu{
+        padding:0;
+    }
+    .banner-container{
+        padding:0px;
+    }
+    .banner{
+        padding: 0px;
+    }
+
+
+}
 
 
 
